@@ -1,11 +1,12 @@
-import Calculator from './Calculator';
+import React from 'react'
+import Calculator from './Calculator'
 
-function App() {
+
+export default function App() {
   return (
-    <div >
-       <Calculator/>
+    <div>
+        <Calculator/>
     </div>
-  );
+  )
 }
 
-export default App;
